@@ -27,25 +27,20 @@ Xcode9，自动签名
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>compileBitcode</key>
-    <false/>
-    <key>method</key>
-    <string>development</string>
-    <key>provisioningProfiles</key>
-    <dict>
-        <key>xxxxx</key>
-        <string>xxxxx</string>
-    </dict>
-    <key>signingCertificate</key>
-    <string>iPhone Developer</string>
-    <key>signingStyle</key>
-    <string>automatic</string>
-    <key>stripSwiftSymbols</key>
-    <true/>
-    <key>teamID</key>
-    <string>xxxxx</string>
-    <key>thinning</key>
-    <string>&lt;none&gt;</string>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>xxxxxx</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
 </dict>
 </plist>
 ```
